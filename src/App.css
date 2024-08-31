@@ -1,0 +1,62 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+body{
+  background-color: black;
+}
+h1,h2, h3,h4,h5,h6 ,p{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+button{
+  color: white;
+}
+.bordered{
+  border: 2px solid #61d18112;
+}
+.border-red-span{
+  border-right: 1px solid #ffffff36;
+}
+.btn{
+  background: linear-gradient(90deg,rgba(97,209,128,1) 40%, rgba(2,48,32,1) 100%);
+}
+.btnn:hover{
+  background: linear-gradient(90deg,rgba(97,209,128,1) 40%, rgba(2,48,32,1) 100%);
+}
+
+.border_green{
+  border: 2px solid #61d1812f;
+}
+
+.gradient_bg{
+  background: linear-gradient(90deg,#61D1801A 40%, #0230201A 100%);
+}
+
+.css-14pt78w-MuiSlider-rail{
+  background-color: #25372e !important ;
+  height: 8px !important;
+}
+
+.css-1gv0vcd-MuiSlider-track{
+  background-color: #61D180 !important ;
+  height: 8px !important;
+}
+
+.css-eg0mwd-MuiSlider-thumb{
+  background-color: #61D180 !important ;
+}
+
+.MuiSlider-valueLabel{
+  background-color: transparent !important;
+}
+.MuiSlider-valueLabel .MuiSlider-valueLabelCircle::before{
+  content: "$" !important;
+}
+.MuiSlider-valueLabel .MuiSlider-valueLabelCircle{
+  display: flex;
+  font-size: 20px;
+}
